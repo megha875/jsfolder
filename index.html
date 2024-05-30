@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data type</title>
+</head>
+<body>
+   <script>
+   var x=10;
+    var y=20;
+    var z='india';
+    var a;
+
+    var c=30;
+    c=+2;
+    document.write(x +"<br>");//number 10
+    document.write("Date type of 20  is: "+(typeof y)+"<br>");//number 20
+    document.write(z+"<br>");//string india
+    document.write("Data type a is :"+ (typeof a));//umdefine
+    console.log("This value  of x is:" +x);//error
+    
+    const b=10;
+    b=b+2;
+    console.log("This value  of x is:" +x);//error
+
+    var d=50;//Global Variable
+    console.log("This value  of d is:" +d);
+
+    {   
+      let d = 40;//Local Variable
+      console.log("the value of x inside block  is :"+d);
+    }
+    console.log("This value  of d is:" +d);
+   </script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
